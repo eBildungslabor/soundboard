@@ -1,4 +1,4 @@
-# Akustische Untermalung für Videokonferenzen und workshops
+# Akustische Untermalung für Videokonferenzen und Workshops
 
 ## Was ist das hier?
 
