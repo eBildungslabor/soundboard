@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Varela;
+  src: url(Varela_Round/VarelaRound-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cbb9a8;
+  font-family: 'Varela', sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.h1 {
+  font-size: 1.5rem;
+}
+
+#small {
+  font-size: small;
+}
+#ausschalten {
+cursor: pointer;
+color: #145c9e;
+font-size: 1.2rem;
+}
+
+
+#footer {
+  font-size: small;
+  }
+
+  #footer a, .footer a:link, .footer a:visited, .footer a:active, .footer a:hover {
+    color: black;
+    font-family: 'Varela', sans-serif;
+    text-decoration: none;
+  }
+  
+
+.btn {
+  font-family: 'Varela', sans-serif;
+  background-color: #145c9e;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
+

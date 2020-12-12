@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+   
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Akustische Untermalung für Videokonferenzen</title>
+  </head>
+  <body>
+    <div> <h1>Akustische Untermalung für Videokonferenzen und Workshops</h1></div>
+   <div> <p>Wähle den passenden Sound</p></div>
+   
+    <audio id="Gleich geht es los" src="sounds/countdown.mp3"></audio>
+    <audio id="Bitte kurz Geduld" src="sounds/waiting.mp3"></audio>
+    <audio id="Das war toll" src="sounds/toll.mp3"></audio>
+    <audio id="Leider falsch" src="sounds/falsch.mp3"></audio>
+    <audio id="Entspannt Euch" src="sounds/meditation.mp3"></audio>
+  
+   
+
+    <div id="buttons"></div>
+
+  <p onclick="stopSongs()" id="ausschalten"><i class="far fa-stop-circle"></i> Stop</p>
+
+      <p id="footer"><a href="impressum.html"><i class="fas fa-info-circle"></i> Credits & Remix</a></p>
+    <script src="script.js"></script>
+  </body>
+</html>
